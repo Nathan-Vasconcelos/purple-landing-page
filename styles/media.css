@@ -1,0 +1,38 @@
+@media screen and (max-width: 1200px){
+    img{
+        width: 420px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    main{
+        flex-direction: column;
+    }
+
+    img{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 760px){
+    header{
+        flex-direction: column;
+    }
+
+    ul{
+        text-align: center;
+    }
+
+    img {
+        display: none;
+    }
+
+    input{
+        align-self: center;
+    }
+
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+}
